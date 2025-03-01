@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #333;
+    text-align: center;
+}
+
+.stats p {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #555;
+}
+
+.stats span {
+    font-weight: bold;
+    color: #007bff;
+}
+
+#last-withdrawals {
+    list-style-type: none;
+    padding: 0;
+}
+
+#last-withdrawals li {
+    background-color: #e9ecef;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333;
+}
