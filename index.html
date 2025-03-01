@@ -4,21 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Статистика бота</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
         <h1>Статистика бота</h1>
-        <div class="stats">
-            <p>Количество пользователей: <span id="users-count">0</span></p>
-            <p>Количество выполненных заданий: <span id="tasks-completed">0</span></p>
-            <p>Заработано средств: <span id="total-earned">0.00</span>₽</p>
-            <p>Выведено средств: <span id="total-withdrawn">0.00</span>₽</p>
+        <div class="tabs">
+            <button class="tab-button" onclick="showTab('stats')">Статистика</button>
+            <button class="tab-button" onclick="showTab('leaders')">Лидеры</button>
         </div>
-        <h2>Последние выводы</h2>
-        <ul id="last-withdrawals">
-            <!-- Здесь будут последние выводы -->
-        </ul>
+        <div id="stats" class="tab-content active">
+            <div class="stats">
+                <div class="stat-item">
+                    <p>Пользователей</p>
+                    <span id="users-count">0</span>
+                </div>
+                <div class="stat-item">
+                    <p>Заданий выполнено</p>
+                    <span id="tasks-completed">0</span>
+                </div>
+                <div class="stat-item">
+                    <p>Заработано</p>
+                    <span id="total-earned">0.00</span>₽
+                </div>
+                <div class="stat-item">
+                    <p>Выведено</p>
+                    <span id="total-withdrawn">0.00</span>₽
+                </div>
+            </div>
+            <h2>Последние выводы</h2>
+            <ul id="last-withdrawals">
+                <!-- Здесь будут последние выводы -->
+            </ul>
+        </div>
+        <div id="leaders" class="tab-content">
+            <h2>Лидеры по заработку</h2>
+            <ul id="leaders-list">
+                <!-- Здесь будут лидеры -->
+            </ul>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>
