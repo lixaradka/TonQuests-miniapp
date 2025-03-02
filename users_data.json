@@ -1,0 +1,1560 @@
+{
+    "7819531159": {
+        "balance": 6.82,
+        "tasks": {
+            "https://t.me/kuniverseBot": {
+                "completed": false,
+                "reward": 0.5,
+                "status": "ok",
+                "last_checked": 1740874498,
+                "permanently_completed": true
+            },
+            "https://t.me/+Zwc1O3P9wFw3ZGZi": {
+                "completed": true,
+                "reward": 0.5,
+                "status": "ok",
+                "last_checked": 1740874498,
+                "permanently_completed": true
+            },
+            "https://t.me/anonymous_chatikBot?start=subgram": {
+                "completed": true,
+                "reward": 0.5,
+                "status": "ok",
+                "last_checked": 1740874498,
+                "permanently_completed": true
+            },
+            "https://t.me/+c7I7k1OATFA3OTYy": {
+                "completed": true,
+                "reward": 0.5,
+                "status": "ok",
+                "last_checked": 1740874498,
+                "permanently_completed": true
+            },
+            "https://t.me/+wP7tB2JeD3RjODZi": {
+                "completed": true,
+                "reward": 0.5,
+                "status": "ok",
+                "last_checked": 1740921467,
+                "permanently_completed": true
+            },
+            "https://t.me/+ixEnwefc8Dw3ZjRk": {
+                "completed": false,
+                "reward": 0.5,
+                "status": "warning",
+                "last_checked": 1740935212,
+                "permanently_completed": false
+            }
+        },
+        "referrals": 2,
+        "referral_code": "ref7819531159",
+        "total_earned": 6.82,
+        "referral_earnings": 1.32,
+        "level": 2,
+        "xp": 30,
+        "used_referral": true,
+        "referrer_id": 992930870,
+        "last_check": 0,
+        "chat_id": 7819531159,
+        "last_notification": 1740936164.9954302,
+        "special_tasks": [
+            {
+                "link": "https://t.me/tonquestschannel",
+                "reward": 1.0,
+                "max_activations": 1000000,
+                "current_activations": 2,
+                "task_id": 1,
+                "completed": true
+            }
+        ]
+    },
+    "992930870": {
+        "balance": 6.32,
+        "tasks": {
+            "https://t.me/kuniverseBot": {
+                "completed": false,
+                "reward": 0.5,
+                "status": "warning",
+                "last_checked": 1740874597,
+                "permanently_completed": true
+            },
+            "https://t.me/anonymous_chatikBot?start=subgram": {
+                "completed": true,
+                "reward": 0.5,
+                "status": "ok",
+                "last_checked": 1740874597,
+                "permanently_completed": true
+            },
+            "https://t.me/+VI__jRDOfXNjZTVi": {
+                "completed": true,
+                "reward": 0.5,
+                "status": "ok",
+                "last_checked": 1740874597,
+                "permanently_completed": true
+            },
+            "https://t.me/+v2eyMpaF2C4yMWIy": {
+                "completed": true,
+                "reward": 0.5,
+                "status": "ok",
+                "last_checked": 1740874597,
+                "permanently_completed": true
+            },
+            "https://t.me/+JrkdISt8Ujs5Yjky": {
+                "completed": true,
+                "reward": 0.5,
+                "status": "ok",
+                "last_checked": 1740874597,
+                "permanently_completed": true
+            },
+            "https://t.me/+mtyC93BJVlM1NGZi": {
+                "completed": true,
+                "reward": 0.5,
+                "status": "ok",
+                "last_checked": 1740874597,
+                "permanently_completed": true
+            },
+            "https://t.me/+c7I7k1OATFA3OTYy": {
+                "completed": true,
+                "reward": 0.5,
+                "status": "ok",
+                "last_checked": 1740874597,
+                "permanently_completed": true
+            },
+            "https://t.me/avtobazarua01": {
+                "completed": true,
+                "reward": 0.5,
+                "status": "ok",
+                "last_checked": 1740921359,
+                "permanently_completed": true
+            },
+            "https://t.me/+-OLa_9NCs69iMWE6": {
+                "completed": true,
+                "reward": 0.5,
+                "status": "ok",
+                "last_checked": 1740921359,
+                "permanently_completed": true
+            },
+            "https://t.me/+2QM6-ONW2itiYTFi": {
+                "completed": true,
+                "reward": 0.5,
+                "status": "ok",
+                "last_checked": 1740921359,
+                "permanently_completed": true
+            },
+            "https://t.me/+ixEnwefc8Dw3ZjRk": {
+                "completed": false,
+                "reward": 0.5,
+                "status": "warning",
+                "last_checked": 1740935212,
+                "permanently_completed": false
+            }
+        },
+        "referrals": 1,
+        "referral_code": "ref992930870",
+        "total_earned": 6.32,
+        "referral_earnings": 0.32,
+        "level": 1,
+        "xp": 49,
+        "used_referral": true,
+        "referrer_id": 7819531159,
+        "last_check": 0,
+        "chat_id": 992930870,
+        "last_notification": 1740936164.2138875,
+        "special_tasks": [
+            {
+                "link": "https://t.me/tonquestschannel",
+                "reward": 1.0,
+                "max_activations": 1000000,
+                "current_activations": 2,
+                "task_id": 1,
+                "completed": true
+            }
+        ]
+    },
+    "6580012396": {
+        "balance": 0.0,
+        "tasks": {
+            "https://t.me/+8st5GUOSPi80N2Zi": {
+                "completed": false,
+                "reward": 0.5,
+                "status": "warning",
+                "last_checked": 1740866516,
+                "permanently_completed": false
+            },
+            "https://t.me/BeriZvezduBot": {
+                "completed": false,
+                "reward": 0.5,
+                "status": "warning",
+                "last_checked": 1740925660,
+                "permanently_completed": false
+            }
+        },
+        "referrals": 0,
+        "referral_code": "ref6580012396",
+        "total_earned": 0.0,
+        "referral_earnings": 0.0,
+        "level": 1,
+        "xp": 0,
+        "used_referral": false,
+        "referrer_id": null,
+        "last_check": 0,
+        "chat_id": 6580012396,
+        "last_notification": 1740936164.1135814,
+        "special_tasks": [
+            {
+                "link": "https://t.me/tonquestschannel",
+                "reward": 1.0,
+                "max_activations": 1000000,
+                "current_activations": 2,
+                "task_id": 1,
+                "completed": false
+            }
+        ]
+    },
+    "5451858769": {
+        "balance": 0.0,
+        "tasks": {
+            "https://t.me/sp78shop": {
+                "completed": false,
+                "reward": 0.5,
+                "status": "warning",
+                "last_checked": 1740866536,
+                "permanently_completed": false
+            },
+            "https://t.me/+B0wsdkQgfv85MTky": {
+                "completed": false,
+                "reward": 0.5,
+                "status": "warning",
+                "last_checked": 1740866536,
+                "permanently_completed": false
+            },
+            "https://t.me/+gAHTpSxqTZdhYWRh": {
+                "completed": false,
+                "reward": 0.5,
+                "status": "warning",
+                "last_checked": 1740866536,
+                "permanently_completed": false
+            },
+            "https://t.me/+GG-PnIiXBtJhNWRi": {
+                "completed": false,
+                "reward": 0.5,
+                "status": "warning",
+                "last_checked": 1740866536,
+                "permanently_completed": false
+            },
+            "https://t.me/AnonPoslaniyaBot?start=subgram": {
+                "completed": false,
+                "reward": 0.5,
+                "status": "warning",
+                "last_checked": 1740921164,
+                "permanently_completed": false
+            },
+            "https://t.me/+D15mR4krgLAzMmEy": {
+                "completed": false,
+                "reward": 0.5,
+                "status": "warning",
+                "last_checked": 1740932247,
+                "permanently_completed": false
+            }
+        },
+        "referrals": 0,
+        "referral_code": "ref5451858769",
+        "total_earned": 0.0,
+        "referral_earnings": 0.0,
+        "level": 1,
+        "xp": 0,
+        "used_referral": false,
+        "referrer_id": null,
+        "last_check": 0,
+        "chat_id": 5451858769,
+        "last_notification": 1740936164.5182781,
+        "special_tasks": [
+            {
+                "link": "https://t.me/tonquestschannel",
+                "reward": 1.0,
+                "max_activations": 1000000,
+                "current_activations": 2,
+                "task_id": 1,
+                "completed": false
+            }
+        ]
+    },
+    "6681756885": {
+        "balance": 0.0,
+        "tasks": {
+            "https://t.me/sp78shop": {
+                "completed": false,
+                "reward": 0.5,
+                "status": "warning",
+                "last_checked": 1740866556,
+                "permanently_completed": false
+            },
+            "https://t.me/+D15mR4krgLAzMmEy": {
+                "completed": false,
+                "reward": 0.5,
+                "status": "warning",
+                "last_checked": 1740921357,
+                "permanently_completed": false
+            },
+            "https://t.me/+ixEnwefc8Dw3ZjRk": {
+                "completed": false,
+                "reward": 0.5,
+                "status": "warning",
+                "last_checked": 1740935212,
+                "permanently_completed": false
+            }
+        },
+        "referrals": 0,
+        "referral_code": "ref6681756885",
+        "total_earned": 0.0,
+        "referral_earnings": 0.0,
+        "level": 1,
+        "xp": 0,
+        "used_referral": false,
+        "referrer_id": null,
+        "last_check": 0,
+        "chat_id": 6681756885,
+        "last_notification": 1740936164.244318,
+        "special_tasks": [
+            {
+                "link": "https://t.me/tonquestschannel",
+                "reward": 1.0,
+                "max_activations": 1000000,
+                "current_activations": 2,
+                "task_id": 1,
+                "completed": false
+            }
+        ]
+    },
+    "2054903455": {
+        "balance": 0.0,
+        "tasks": {
+            "https://t.me/+4NLrAzZ9KzVlM2Ri": {
+                "completed": false,
+                "reward": 0.5,
+                "status": "warning",
+                "last_checked": 1740866537,
+                "permanently_completed": false
+            },
+            "https://t.me/+GG-PnIiXBtJhNWRi": {
+                "completed": false,
+                "reward": 0.5,
+                "status": "warning",
+                "last_checked": 1740866537,
+                "permanently_completed": false
+            },
+            "https://t.me/Vilanysowbot?start=dontgo": {
+                "completed": false,
+                "reward": 0.5,
+                "status": "warning",
+                "last_checked": 1740921165,
+                "permanently_completed": false
+            },
+            "https://t.me/+u-MPv2aPoiYxOGE6": {
+                "completed": false,
+                "reward": 0.5,
+                "status": "warning",
+                "last_checked": 1740921165,
+                "permanently_completed": false
+            },
+            "https://t.me/+gAHTpSxqTZdhYWRh": {
+                "completed": false,
+                "reward": 0.5,
+                "status": "warning",
+                "last_checked": 1740932248,
+                "permanently_completed": false
+            }
+        },
+        "referrals": 0,
+        "referral_code": "ref2054903455",
+        "total_earned": 0.0,
+        "referral_earnings": 0.0,
+        "level": 1,
+        "xp": 0,
+        "used_referral": false,
+        "referrer_id": null,
+        "last_check": 0,
+        "chat_id": 2054903455,
+        "last_notification": 1740936164.1508353,
+        "special_tasks": [
+            {
+                "link": "https://t.me/tonquestschannel",
+                "reward": 1.0,
+                "max_activations": 1000000,
+                "current_activations": 2,
+                "task_id": 1,
+                "completed": false
+            }
+        ]
+    },
+    "1696963096": {
+        "balance": 0.0,
+        "tasks": {
+            "https://t.me/+4NLrAzZ9KzVlM2Ri": {
+                "completed": false,
+                "reward": 0.5,
+                "status": "warning",
+                "last_checked": 1740866558,
+                "permanently_completed": false
+            },
+            "https://t.me/+GG-PnIiXBtJhNWRi": {
+                "completed": false,
+                "reward": 0.5,
+                "status": "warning",
+                "last_checked": 1740866558,
+                "permanently_completed": false
+            },
+            "https://t.me/+gAHTpSxqTZdhYWRh": {
+                "completed": false,
+                "reward": 0.5,
+                "status": "warning",
+                "last_checked": 1740932249,
+                "permanently_completed": false
+            }
+        },
+        "referrals": 0,
+        "referral_code": "ref1696963096",
+        "total_earned": 0.0,
+        "referral_earnings": 0.0,
+        "level": 1,
+        "xp": 0,
+        "used_referral": false,
+        "referrer_id": null,
+        "last_check": 0,
+        "chat_id": 1696963096,
+        "last_notification": 1740936164.2171297,
+        "special_tasks": [
+            {
+                "link": "https://t.me/tonquestschannel",
+                "reward": 1.0,
+                "max_activations": 1000000,
+                "current_activations": 2,
+                "task_id": 1,
+                "completed": false
+            }
+        ]
+    },
+    "1314660379": {
+        "balance": 0.0,
+        "tasks": {
+            "https://t.me/+8st5GUOSPi80N2Zi": {
+                "completed": false,
+                "reward": 0.5,
+                "status": "warning",
+                "last_checked": 1740866577,
+                "permanently_completed": false
+            },
+            "https://t.me/sp78shop": {
+                "completed": false,
+                "reward": 0.5,
+                "status": "warning",
+                "last_checked": 1740866577,
+                "permanently_completed": false
+            },
+            "https://t.me/+4NLrAzZ9KzVlM2Ri": {
+                "completed": false,
+                "reward": 0.5,
+                "status": "warning",
+                "last_checked": 1740866577,
+                "permanently_completed": false
+            }
+        },
+        "referrals": 0,
+        "referral_code": "ref1314660379",
+        "total_earned": 0.0,
+        "referral_earnings": 0.0,
+        "level": 1,
+        "xp": 0,
+        "used_referral": false,
+        "referrer_id": null,
+        "last_check": 0,
+        "chat_id": 1314660379,
+        "last_notification": 1740936164.9922528,
+        "special_tasks": [
+            {
+                "link": "https://t.me/tonquestschannel",
+                "reward": 1.0,
+                "max_activations": 1000000,
+                "current_activations": 2,
+                "task_id": 1,
+                "completed": false
+            }
+        ]
+    },
+    "7123035696": {
+        "balance": 0.0,
+        "tasks": {
+            "https://t.me/+D15mR4krgLAzMmEy": {
+                "completed": false,
+                "reward": 0.5,
+                "status": "warning",
+                "last_checked": 1740866617,
+                "permanently_completed": false
+            },
+            "https://t.me/+gAHTpSxqTZdhYWRh": {
+                "completed": false,
+                "reward": 0.5,
+                "status": "warning",
+                "last_checked": 1740921269,
+                "permanently_completed": false
+            }
+        },
+        "referrals": 0,
+        "referral_code": "ref7123035696",
+        "total_earned": 0.0,
+        "referral_earnings": 0.0,
+        "level": 1,
+        "xp": 0,
+        "used_referral": false,
+        "referrer_id": null,
+        "last_check": 0,
+        "chat_id": 7123035696,
+        "last_notification": 1740936164.6357884,
+        "special_tasks": [
+            {
+                "link": "https://t.me/tonquestschannel",
+                "reward": 1.0,
+                "max_activations": 1000000,
+                "current_activations": 2,
+                "task_id": 1,
+                "completed": false
+            }
+        ]
+    },
+    "5014284983": {
+        "balance": 1.5,
+        "tasks": {
+            "https://t.me/+GG-PnIiXBtJhNWRi": {
+                "completed": true,
+                "reward": 0.5,
+                "status": "ok",
+                "last_checked": 1740866622,
+                "permanently_completed": true
+            },
+            "https://t.me/+gAHTpSxqTZdhYWRh": {
+                "completed": false,
+                "reward": 0.5,
+                "status": "warning",
+                "last_checked": 1740921359,
+                "permanently_completed": false
+            }
+        },
+        "referrals": 0,
+        "referral_code": "ref5014284983",
+        "total_earned": 1.5,
+        "referral_earnings": 0.0,
+        "level": 1,
+        "xp": 8,
+        "used_referral": false,
+        "referrer_id": null,
+        "last_check": 0,
+        "chat_id": 5014284983,
+        "last_notification": 1740936165.1815543,
+        "special_tasks": [
+            {
+                "link": "https://t.me/tonquestschannel",
+                "reward": 1.0,
+                "max_activations": 1000000,
+                "current_activations": 2,
+                "task_id": 1,
+                "completed": true
+            }
+        ]
+    },
+    "7924621870": {
+        "balance": 0.0,
+        "tasks": {
+            "https://t.me/+8st5GUOSPi80N2Zi": {
+                "completed": false,
+                "reward": 0.5,
+                "status": "warning",
+                "last_checked": 1740866618,
+                "permanently_completed": false
+            },
+            "https://t.me/+4NLrAzZ9KzVlM2Ri": {
+                "completed": false,
+                "reward": 0.5,
+                "status": "warning",
+                "last_checked": 1740866618,
+                "permanently_completed": false
+            }
+        },
+        "referrals": 0,
+        "referral_code": "ref7924621870",
+        "total_earned": 0.0,
+        "referral_earnings": 0.0,
+        "level": 1,
+        "xp": 0,
+        "used_referral": false,
+        "referrer_id": null,
+        "last_check": 0,
+        "chat_id": 7924621870,
+        "last_notification": 1740936164.6207442,
+        "special_tasks": [
+            {
+                "link": "https://t.me/tonquestschannel",
+                "reward": 1.0,
+                "max_activations": 1000000,
+                "current_activations": 2,
+                "task_id": 1,
+                "completed": false
+            }
+        ]
+    },
+    "1022408569": {
+        "balance": 1.0,
+        "tasks": {
+            "https://t.me/kuniverseBot": {
+                "completed": false,
+                "reward": 0.5,
+                "status": "warning",
+                "last_checked": 1740866665,
+                "permanently_completed": false
+            },
+            "https://t.me/+4NLrAzZ9KzVlM2Ri": {
+                "completed": false,
+                "reward": 0.5,
+                "status": "warning",
+                "last_checked": 1740866665,
+                "permanently_completed": false
+            },
+            "https://t.me/+GG-PnIiXBtJhNWRi": {
+                "completed": false,
+                "reward": 0.5,
+                "status": "warning",
+                "last_checked": 1740866665,
+                "permanently_completed": false
+            },
+            "https://t.me/+c7I7k1OATFA3OTYy": {
+                "completed": false,
+                "reward": 0.5,
+                "status": "warning",
+                "last_checked": 1740866665,
+                "permanently_completed": false
+            },
+            "https://t.me/+IrcOdsyOI_00M2Ri": {
+                "completed": false,
+                "reward": 0.5,
+                "status": "warning",
+                "last_checked": 1740921170,
+                "permanently_completed": false
+            },
+            "https://t.me/+2QM6-ONW2itiYTFi": {
+                "completed": false,
+                "reward": 0.5,
+                "status": "warning",
+                "last_checked": 1740921170,
+                "permanently_completed": false
+            },
+            "https://t.me/theWayMultiverse_Bot/app?startapp=r_1760297535": {
+                "completed": false,
+                "reward": 0.5,
+                "status": "warning",
+                "last_checked": 1740932251,
+                "permanently_completed": false
+            },
+            "https://t.me/+gAHTpSxqTZdhYWRh": {
+                "completed": false,
+                "reward": 0.5,
+                "status": "warning",
+                "last_checked": 1740932251,
+                "permanently_completed": false
+            }
+        },
+        "referrals": 0,
+        "referral_code": "ref1022408569",
+        "total_earned": 1.0,
+        "referral_earnings": 0.0,
+        "level": 1,
+        "xp": 4,
+        "used_referral": false,
+        "referrer_id": null,
+        "last_check": 0,
+        "chat_id": 1022408569,
+        "last_notification": 1740936164.247043,
+        "special_tasks": [
+            {
+                "link": "https://t.me/tonquestschannel",
+                "reward": 1.0,
+                "max_activations": 1000000,
+                "current_activations": 2,
+                "task_id": 1,
+                "completed": true
+            }
+        ]
+    },
+    "6474427751": {
+        "balance": 0.0,
+        "tasks": {
+            "https://t.me/+D15mR4krgLAzMmEy": {
+                "completed": false,
+                "reward": 0.5,
+                "status": "warning",
+                "last_checked": 1740869625,
+                "permanently_completed": false
+            },
+            "https://t.me/kuniverseBot": {
+                "completed": false,
+                "reward": 0.5,
+                "status": "warning",
+                "last_checked": 1740869625,
+                "permanently_completed": false
+            },
+            "https://t.me/+gAHTpSxqTZdhYWRh": {
+                "completed": false,
+                "reward": 0.5,
+                "status": "warning",
+                "last_checked": 1740869625,
+                "permanently_completed": false
+            },
+            "https://t.me/+GG-PnIiXBtJhNWRi": {
+                "completed": false,
+                "reward": 0.5,
+                "status": "warning",
+                "last_checked": 1740869625,
+                "permanently_completed": false
+            }
+        },
+        "referrals": 0,
+        "referral_code": "ref6474427751",
+        "total_earned": 0.0,
+        "referral_earnings": 0.0,
+        "level": 1,
+        "xp": 0,
+        "used_referral": false,
+        "referrer_id": null,
+        "last_check": 0,
+        "chat_id": 6474427751,
+        "last_notification": 1740936165.02776,
+        "special_tasks": [
+            {
+                "link": "https://t.me/tonquestschannel",
+                "reward": 1.0,
+                "max_activations": 1000000,
+                "current_activations": 2,
+                "task_id": 1,
+                "completed": false
+            }
+        ]
+    },
+    "7796385832": {
+        "balance": 1.0,
+        "tasks": {},
+        "referrals": 0,
+        "referral_code": "ref7796385832",
+        "total_earned": 1.0,
+        "referral_earnings": 0.0,
+        "level": 1,
+        "xp": 4,
+        "used_referral": false,
+        "referrer_id": null,
+        "last_check": 0,
+        "chat_id": 7796385832,
+        "last_notification": 1740934991.6786993,
+        "special_tasks": [
+            {
+                "link": "https://t.me/tonquestschannel",
+                "reward": 1.0,
+                "max_activations": 1000000,
+                "current_activations": 2,
+                "task_id": 1,
+                "completed": true
+            }
+        ]
+    },
+    "5757959439": {
+        "balance": 0.0,
+        "tasks": {
+            "https://t.me/+GG-PnIiXBtJhNWRi": {
+                "completed": false,
+                "reward": 0.5,
+                "status": "warning",
+                "last_checked": 1740870248,
+                "permanently_completed": false
+            },
+            "https://t.me/+gAHTpSxqTZdhYWRh": {
+                "completed": false,
+                "reward": 0.5,
+                "status": "warning",
+                "last_checked": 1740932252,
+                "permanently_completed": false
+            }
+        },
+        "referrals": 0,
+        "referral_code": "ref5757959439",
+        "total_earned": 0.0,
+        "referral_earnings": 0.0,
+        "level": 1,
+        "xp": 0,
+        "used_referral": false,
+        "referrer_id": null,
+        "last_check": 0,
+        "chat_id": 5757959439,
+        "last_notification": 1740936165.516538,
+        "special_tasks": [
+            {
+                "link": "https://t.me/tonquestschannel",
+                "reward": 1.0,
+                "max_activations": 1000000,
+                "current_activations": 2,
+                "task_id": 1,
+                "completed": false
+            }
+        ]
+    },
+    "7201474607": {
+        "balance": 0.0,
+        "tasks": {
+            "https://t.me/+4NLrAzZ9KzVlM2Ri": {
+                "completed": false,
+                "reward": 0.5,
+                "status": "warning",
+                "last_checked": 1740870586,
+                "permanently_completed": false
+            },
+            "https://t.me/+GG-PnIiXBtJhNWRi": {
+                "completed": false,
+                "reward": 0.5,
+                "status": "warning",
+                "last_checked": 1740870586,
+                "permanently_completed": false
+            },
+            "https://t.me/+gAHTpSxqTZdhYWRh": {
+                "completed": false,
+                "reward": 0.5,
+                "status": "warning",
+                "last_checked": 1740932252,
+                "permanently_completed": false
+            }
+        },
+        "referrals": 0,
+        "referral_code": "ref7201474607",
+        "total_earned": 0.0,
+        "referral_earnings": 0.0,
+        "level": 1,
+        "xp": 0,
+        "used_referral": false,
+        "referrer_id": null,
+        "last_check": 0,
+        "chat_id": 7201474607,
+        "last_notification": 1740936164.268517,
+        "special_tasks": [
+            {
+                "link": "https://t.me/tonquestschannel",
+                "reward": 1.0,
+                "max_activations": 1000000,
+                "current_activations": 2,
+                "task_id": 1,
+                "completed": false
+            }
+        ]
+    },
+    "6023102048": {
+        "balance": 1.0,
+        "tasks": {
+            "https://t.me/vpn1probot?start=subgram270502": {
+                "completed": false,
+                "reward": 0.5,
+                "status": "warning",
+                "last_checked": 1740871774,
+                "permanently_completed": false
+            },
+            "https://t.me/kuniverseBot": {
+                "completed": false,
+                "reward": 0.5,
+                "status": "warning",
+                "last_checked": 1740871774,
+                "permanently_completed": false
+            },
+            "https://t.me/+D15mR4krgLAzMmEy": {
+                "completed": false,
+                "reward": 0.5,
+                "status": "warning",
+                "last_checked": 1740871774,
+                "permanently_completed": false
+            },
+            "https://t.me/+VI__jRDOfXNjZTVi": {
+                "completed": false,
+                "reward": 0.5,
+                "status": "warning",
+                "last_checked": 1740871774,
+                "permanently_completed": false
+            },
+            "https://t.me/+gAHTpSxqTZdhYWRh": {
+                "completed": false,
+                "reward": 0.5,
+                "status": "warning",
+                "last_checked": 1740871774,
+                "permanently_completed": false
+            },
+            "https://t.me/+GG-PnIiXBtJhNWRi": {
+                "completed": false,
+                "reward": 0.5,
+                "status": "warning",
+                "last_checked": 1740871774,
+                "permanently_completed": false
+            },
+            "https://t.me/+2QM6-ONW2itiYTFi": {
+                "completed": false,
+                "reward": 0.5,
+                "status": "warning",
+                "last_checked": 1740921171,
+                "permanently_completed": false
+            }
+        },
+        "referrals": 0,
+        "referral_code": "ref6023102048",
+        "total_earned": 1.0,
+        "referral_earnings": 0.0,
+        "level": 1,
+        "xp": 4,
+        "used_referral": false,
+        "referrer_id": null,
+        "last_check": 0,
+        "chat_id": 6023102048,
+        "last_notification": 1740936164.3162668,
+        "special_tasks": [
+            {
+                "link": "https://t.me/tonquestschannel",
+                "reward": 1.0,
+                "max_activations": 1000000,
+                "current_activations": 2,
+                "task_id": 1,
+                "completed": true
+            }
+        ]
+    },
+    "684446918": {
+        "balance": 0.0,
+        "tasks": {
+            "https://t.me/+HBLfoNTtng05YjEy": {
+                "completed": false,
+                "reward": 0.5,
+                "status": "warning",
+                "last_checked": 1740871715,
+                "permanently_completed": false
+            },
+            "https://t.me/+UScoMfcv_jE4ZmEy": {
+                "completed": false,
+                "reward": 0.5,
+                "status": "warning",
+                "last_checked": 1740871715,
+                "permanently_completed": false
+            },
+            "https://t.me/+6qJ5FrMex5YxMGFi": {
+                "completed": false,
+                "reward": 0.5,
+                "status": "warning",
+                "last_checked": 1740871715,
+                "permanently_completed": false
+            },
+            "https://t.me/+Pe5lngt0A_M4OWEy": {
+                "completed": false,
+                "reward": 0.5,
+                "status": "warning",
+                "last_checked": 1740871715,
+                "permanently_completed": false
+            },
+            "https://t.me/+U8hedeaC6dcyZDgy": {
+                "completed": false,
+                "reward": 0.5,
+                "status": "warning",
+                "last_checked": 1740871716,
+                "permanently_completed": false
+            },
+            "https://t.me/+ZH-juWsdYus3ZGZi": {
+                "completed": false,
+                "reward": 0.5,
+                "status": "warning",
+                "last_checked": 1740871716,
+                "permanently_completed": false
+            },
+            "https://t.me/+cjDqT1tk-hthNzAy": {
+                "completed": false,
+                "reward": 0.5,
+                "status": "warning",
+                "last_checked": 1740871716,
+                "permanently_completed": false
+            },
+            "https://t.me/+XhOkxAnACRozNGQy": {
+                "completed": false,
+                "reward": 0.5,
+                "status": "warning",
+                "last_checked": 1740871716,
+                "permanently_completed": false
+            },
+            "https://t.me/Mpax_bot/app?startapp=12320078-86c9-43de-9208-768b7f2b571f": {
+                "completed": false,
+                "reward": 0.5,
+                "status": "warning",
+                "last_checked": 1740871716,
+                "permanently_completed": false
+            },
+            "https://t.me/+4NLrAzZ9KzVlM2Ri": {
+                "completed": false,
+                "reward": 0.5,
+                "status": "warning",
+                "last_checked": 1740871716,
+                "permanently_completed": false
+            },
+            "https://t.me/Vilanysowbot?start=dontgo": {
+                "completed": false,
+                "reward": 0.5,
+                "status": "warning",
+                "last_checked": 1740921172,
+                "permanently_completed": false
+            },
+            "https://t.me/+GG-PnIiXBtJhNWRi": {
+                "completed": false,
+                "reward": 0.5,
+                "status": "warning",
+                "last_checked": 1740921172,
+                "permanently_completed": false
+            },
+            "https://t.me/+wyNpfX85mqszMjAy": {
+                "completed": false,
+                "reward": 0.5,
+                "status": "warning",
+                "last_checked": 1740932253,
+                "permanently_completed": false
+            },
+            "https://t.me/+gAHTpSxqTZdhYWRh": {
+                "completed": false,
+                "reward": 0.5,
+                "status": "warning",
+                "last_checked": 1740932253,
+                "permanently_completed": false
+            }
+        },
+        "referrals": 0,
+        "referral_code": "ref684446918",
+        "total_earned": 0.0,
+        "referral_earnings": 0.0,
+        "level": 1,
+        "xp": 0,
+        "used_referral": true,
+        "referrer_id": 7819531159,
+        "last_check": 0,
+        "chat_id": 684446918,
+        "last_notification": 1740936165.423676,
+        "special_tasks": [
+            {
+                "link": "https://t.me/tonquestschannel",
+                "reward": 1.0,
+                "max_activations": 1000000,
+                "current_activations": 2,
+                "task_id": 1,
+                "completed": false
+            }
+        ]
+    },
+    "6435208193": {
+        "balance": 0.0,
+        "tasks": {
+            "https://t.me/+D15mR4krgLAzMmEy": {
+                "completed": false,
+                "reward": 0.5,
+                "status": "warning",
+                "last_checked": 1740876841,
+                "permanently_completed": false
+            },
+            "https://t.me/kuniverseBot": {
+                "completed": false,
+                "reward": 0.5,
+                "status": "warning",
+                "last_checked": 1740876841,
+                "permanently_completed": false
+            },
+            "https://t.me/+GG-PnIiXBtJhNWRi": {
+                "completed": false,
+                "reward": 0.5,
+                "status": "warning",
+                "last_checked": 1740876841,
+                "permanently_completed": false
+            },
+            "https://t.me/+2QM6-ONW2itiYTFi": {
+                "completed": false,
+                "reward": 0.5,
+                "status": "warning",
+                "last_checked": 1740921172,
+                "permanently_completed": false
+            },
+            "https://t.me/+gAHTpSxqTZdhYWRh": {
+                "completed": false,
+                "reward": 0.5,
+                "status": "warning",
+                "last_checked": 1740932254,
+                "permanently_completed": false
+            }
+        },
+        "referrals": 0,
+        "referral_code": "ref6435208193",
+        "total_earned": 0.0,
+        "referral_earnings": 0.0,
+        "level": 1,
+        "xp": 0,
+        "used_referral": false,
+        "referrer_id": null,
+        "last_check": 0,
+        "chat_id": 6435208193,
+        "last_notification": 1740936165.4708343,
+        "special_tasks": [
+            {
+                "link": "https://t.me/tonquestschannel",
+                "reward": 1.0,
+                "max_activations": 1000000,
+                "current_activations": 0,
+                "task_id": 1,
+                "completed": false
+            }
+        ]
+    },
+    "1306697008": {
+        "balance": 0.0,
+        "tasks": {
+            "https://t.me/dobamami": {
+                "completed": false,
+                "reward": 0.5,
+                "status": "warning",
+                "last_checked": 1740926726,
+                "permanently_completed": false
+            }
+        },
+        "referrals": 0,
+        "referral_code": null,
+        "total_earned": 0.0,
+        "referral_earnings": 0.0,
+        "level": 1,
+        "xp": 0,
+        "used_referral": false,
+        "referrer_id": null,
+        "last_check": 0,
+        "chat_id": null,
+        "last_notification": 0,
+        "special_tasks": []
+    },
+    "7086302743": {
+        "balance": 0.0,
+        "tasks": {
+            "https://t.me/+4NLrAzZ9KzVlM2Ri": {
+                "completed": false,
+                "reward": 0.5,
+                "status": "warning",
+                "last_checked": 1740929552,
+                "permanently_completed": false
+            },
+            "https://t.me/+4Ua3L8r6dqZjNGYy": {
+                "completed": false,
+                "reward": 0.5,
+                "status": "warning",
+                "last_checked": 1740929552,
+                "permanently_completed": false
+            }
+        },
+        "referrals": 0,
+        "referral_code": "ref7086302743",
+        "total_earned": 0.0,
+        "referral_earnings": 0.0,
+        "level": 1,
+        "xp": 0,
+        "used_referral": false,
+        "referrer_id": null,
+        "last_check": 0,
+        "chat_id": 7086302743,
+        "last_notification": 1740936164.288964,
+        "special_tasks": [
+            {
+                "link": "https://t.me/tonquestschannel",
+                "reward": 1.0,
+                "max_activations": 1000000,
+                "current_activations": 0,
+                "task_id": 1,
+                "completed": false
+            }
+        ]
+    },
+    "2067900640": {
+        "balance": 0.0,
+        "tasks": {
+            "https://t.me/+4NLrAzZ9KzVlM2Ri": {
+                "completed": false,
+                "reward": 0.5,
+                "status": "warning",
+                "last_checked": 1740929552,
+                "permanently_completed": false
+            },
+            "https://t.me/+gAHTpSxqTZdhYWRh": {
+                "completed": false,
+                "reward": 0.5,
+                "status": "warning",
+                "last_checked": 1740929552,
+                "permanently_completed": false
+            },
+            "https://t.me/+GG-PnIiXBtJhNWRi": {
+                "completed": false,
+                "reward": 0.5,
+                "status": "warning",
+                "last_checked": 1740929552,
+                "permanently_completed": false
+            }
+        },
+        "referrals": 0,
+        "referral_code": "ref2067900640",
+        "total_earned": 0.0,
+        "referral_earnings": 0.0,
+        "level": 1,
+        "xp": 0,
+        "used_referral": false,
+        "referrer_id": null,
+        "last_check": 0,
+        "chat_id": 2067900640,
+        "last_notification": 1740936164.2733886,
+        "special_tasks": [
+            {
+                "link": "https://t.me/tonquestschannel",
+                "reward": 1.0,
+                "max_activations": 1000000,
+                "current_activations": 0,
+                "task_id": 1,
+                "completed": false
+            }
+        ]
+    },
+    "5046785797": {
+        "balance": 0.0,
+        "tasks": {},
+        "referrals": 0,
+        "referral_code": "ref5046785797",
+        "total_earned": 0.0,
+        "referral_earnings": 0.0,
+        "level": 1,
+        "xp": 0,
+        "used_referral": false,
+        "referrer_id": null,
+        "last_check": 0,
+        "chat_id": 5046785797,
+        "last_notification": 1740934991.6841078,
+        "special_tasks": [
+            {
+                "link": "https://t.me/tonquestschannel",
+                "reward": 1.0,
+                "max_activations": 1000000,
+                "current_activations": 0,
+                "task_id": 1,
+                "completed": false
+            }
+        ]
+    },
+    "7335554625": {
+        "balance": 0.0,
+        "tasks": {
+            "https://t.me/+4NLrAzZ9KzVlM2Ri": {
+                "completed": false,
+                "reward": 0.5,
+                "status": "warning",
+                "last_checked": 1740929553,
+                "permanently_completed": false
+            },
+            "https://t.me/+GG-PnIiXBtJhNWRi": {
+                "completed": false,
+                "reward": 0.5,
+                "status": "warning",
+                "last_checked": 1740929553,
+                "permanently_completed": false
+            }
+        },
+        "referrals": 0,
+        "referral_code": "ref7335554625",
+        "total_earned": 0.0,
+        "referral_earnings": 0.0,
+        "level": 1,
+        "xp": 0,
+        "used_referral": false,
+        "referrer_id": null,
+        "last_check": 0,
+        "chat_id": 7335554625,
+        "last_notification": 1740936164.5232832,
+        "special_tasks": [
+            {
+                "link": "https://t.me/tonquestschannel",
+                "reward": 1.0,
+                "max_activations": 1000000,
+                "current_activations": 0,
+                "task_id": 1,
+                "completed": false
+            }
+        ]
+    },
+    "7202910242": {
+        "balance": 0.0,
+        "tasks": {
+            "https://t.me/relax_rost": {
+                "completed": false,
+                "reward": 0.5,
+                "status": "warning",
+                "last_checked": 1740931353,
+                "permanently_completed": false
+            }
+        },
+        "referrals": 0,
+        "referral_code": "ref7202910242",
+        "total_earned": 0.0,
+        "referral_earnings": 0.0,
+        "level": 1,
+        "xp": 0,
+        "used_referral": false,
+        "referrer_id": null,
+        "last_check": 0,
+        "chat_id": 7202910242,
+        "last_notification": 1740934991.6854439,
+        "special_tasks": [
+            {
+                "link": "https://t.me/tonquestschannel",
+                "reward": 1.0,
+                "max_activations": 1000000,
+                "current_activations": 0,
+                "task_id": 1,
+                "completed": false
+            }
+        ]
+    },
+    "5631248077": {
+        "balance": 0.0,
+        "tasks": {
+            "https://t.me/+D15mR4krgLAzMmEy": {
+                "completed": false,
+                "reward": 0.5,
+                "status": "warning",
+                "last_checked": 1740934089,
+                "permanently_completed": false
+            }
+        },
+        "referrals": 0,
+        "referral_code": "ref5631248077",
+        "total_earned": 0.0,
+        "referral_earnings": 0.0,
+        "level": 1,
+        "xp": 0,
+        "used_referral": false,
+        "referrer_id": null,
+        "last_check": 0,
+        "chat_id": 5631248077,
+        "last_notification": 1740936165.1033518,
+        "special_tasks": [
+            {
+                "link": "https://t.me/tonquestschannel",
+                "reward": 1.0,
+                "max_activations": 1000000,
+                "current_activations": 0,
+                "task_id": 1,
+                "completed": false
+            }
+        ]
+    },
+    "1204140928": {
+        "balance": 0.0,
+        "tasks": {
+            "https://t.me/kuniverseBot": {
+                "completed": false,
+                "reward": 0.5,
+                "status": "warning",
+                "last_checked": 1740930454,
+                "permanently_completed": false
+            },
+            "https://t.me/+gAHTpSxqTZdhYWRh": {
+                "completed": false,
+                "reward": 0.5,
+                "status": "warning",
+                "last_checked": 1740930454,
+                "permanently_completed": false
+            },
+            "https://t.me/+GG-PnIiXBtJhNWRi": {
+                "completed": false,
+                "reward": 0.5,
+                "status": "warning",
+                "last_checked": 1740930454,
+                "permanently_completed": false
+            }
+        },
+        "referrals": 0,
+        "referral_code": "ref1204140928",
+        "total_earned": 0.0,
+        "referral_earnings": 0.0,
+        "level": 1,
+        "xp": 0,
+        "used_referral": false,
+        "referrer_id": null,
+        "last_check": 0,
+        "chat_id": 1204140928,
+        "last_notification": 1740936164.722829,
+        "special_tasks": [
+            {
+                "link": "https://t.me/tonquestschannel",
+                "reward": 1.0,
+                "max_activations": 1000000,
+                "current_activations": 0,
+                "task_id": 1,
+                "completed": false
+            }
+        ]
+    },
+    "5512842508": {
+        "balance": 0.0,
+        "tasks": {
+            "https://t.me/+4NLrAzZ9KzVlM2Ri": {
+                "completed": false,
+                "reward": 0.5,
+                "status": "warning",
+                "last_checked": 1740930455,
+                "permanently_completed": false
+            },
+            "https://t.me/+GG-PnIiXBtJhNWRi": {
+                "completed": false,
+                "reward": 0.5,
+                "status": "warning",
+                "last_checked": 1740930455,
+                "permanently_completed": false
+            }
+        },
+        "referrals": 0,
+        "referral_code": "ref5512842508",
+        "total_earned": 0.0,
+        "referral_earnings": 0.0,
+        "level": 1,
+        "xp": 0,
+        "used_referral": false,
+        "referrer_id": null,
+        "last_check": 0,
+        "chat_id": 5512842508,
+        "last_notification": 1740936164.543303,
+        "special_tasks": [
+            {
+                "link": "https://t.me/tonquestschannel",
+                "reward": 1.0,
+                "max_activations": 1000000,
+                "current_activations": 0,
+                "task_id": 1,
+                "completed": false
+            }
+        ]
+    },
+    "1697384514": {
+        "balance": 2.0,
+        "tasks": {
+            "https://t.me/kuniverseBot": {
+                "completed": true,
+                "reward": 0.5,
+                "status": "ok",
+                "last_checked": 1740929954,
+                "permanently_completed": true
+            },
+            "https://t.me/+4NLrAzZ9KzVlM2Ri": {
+                "completed": true,
+                "reward": 0.5,
+                "status": "ok",
+                "last_checked": 1740929954,
+                "permanently_completed": true
+            },
+            "https://t.me/+gAHTpSxqTZdhYWRh": {
+                "completed": true,
+                "reward": 0.5,
+                "status": "ok",
+                "last_checked": 1740929954,
+                "permanently_completed": true
+            },
+            "https://t.me/+GG-PnIiXBtJhNWRi": {
+                "completed": true,
+                "reward": 0.5,
+                "status": "ok",
+                "last_checked": 1740929954,
+                "permanently_completed": true
+            }
+        },
+        "referrals": 0,
+        "referral_code": "ref1697384514",
+        "total_earned": 2.0,
+        "referral_earnings": 0.0,
+        "level": 1,
+        "xp": 16,
+        "used_referral": false,
+        "referrer_id": null,
+        "last_check": 0,
+        "chat_id": 1697384514,
+        "last_notification": 1740934991.6887062,
+        "special_tasks": [
+            {
+                "link": "https://t.me/tonquestschannel",
+                "reward": 1.0,
+                "max_activations": 1000000,
+                "current_activations": 0,
+                "task_id": 1,
+                "completed": false
+            }
+        ]
+    },
+    "6277770612": {
+        "balance": 0.0,
+        "tasks": {
+            "https://t.me/+ixEnwefc8Dw3ZjRk": {
+                "completed": false,
+                "reward": 0.5,
+                "status": "warning",
+                "last_checked": 1740935218,
+                "permanently_completed": false
+            }
+        },
+        "referrals": 0,
+        "referral_code": "ref6277770612",
+        "total_earned": 0.0,
+        "referral_earnings": 0.0,
+        "level": 1,
+        "xp": 0,
+        "used_referral": false,
+        "referrer_id": null,
+        "last_check": 0,
+        "chat_id": 6277770612,
+        "last_notification": 1740936165.168028,
+        "special_tasks": [
+            {
+                "link": "https://t.me/tonquestschannel",
+                "reward": 1.0,
+                "max_activations": 1000000,
+                "current_activations": 0,
+                "task_id": 1,
+                "completed": false
+            }
+        ]
+    },
+    "5090310856": {
+        "balance": 0.0,
+        "tasks": {
+            "https://t.me/+T1ECNyHnJS40MmFi": {
+                "completed": false,
+                "reward": 0.5,
+                "status": "warning",
+                "last_checked": 1740934991,
+                "permanently_completed": false
+            }
+        },
+        "referrals": 0,
+        "referral_code": "ref5090310856",
+        "total_earned": 0.0,
+        "referral_earnings": 0.0,
+        "level": 1,
+        "xp": 0,
+        "used_referral": false,
+        "referrer_id": null,
+        "last_check": 0,
+        "chat_id": 5090310856,
+        "last_notification": 1740936164.053601,
+        "special_tasks": [
+            {
+                "link": "https://t.me/tonquestschannel",
+                "reward": 1.0,
+                "max_activations": 1000000,
+                "current_activations": 0,
+                "task_id": 1,
+                "completed": false
+            }
+        ]
+    }
+}
