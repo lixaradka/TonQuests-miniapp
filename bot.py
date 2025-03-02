@@ -157,28 +157,18 @@ async def request_op(user_id: int, chat_id: int, context: ContextTypes.DEFAULT_T
         return None
 
 async def update_available_tasks(context: ContextTypes.DEFAULT_TYPE):
-    """Обновляет глобальный список доступных заданий через API для всех пользователей и удаляет старые завершенные задачи."""
+    """Обновляет глобальный список доступных заданий через API для всех пользователей."""
     global available_tasks
     try:
         headers = {"Auth": SUBGRAM_API_KEY}
         all_tasks = set()
         logger.info("Начало обновления available_tasks")
-        current_time = int(time.time())
-        TWO_DAYS_IN_SECONDS = 48 * 60 * 60  # 2 суток в секундах
-        
-        for user_id, user_data in list(users_data.items()):  # Используем list, чтобы избежать RuntimeError при изменении словаря
+        for user_id, user_data in users_data.items():
             chat_id = user_data.get("chat_id")
             if chat_id is None or not isinstance(chat_id, (int, str)):
                 chat_id = str(user_id)
             else:
                 chat_id = str(chat_id)
-            
-            # Удаление задач с permanently_completed=True старше 2 суток
-            user_data["tasks"] = {
-                link: task for link, task in user_data["tasks"].items()
-                if not task.get("permanently_completed", False) or (current_time - task.get("last_checked", 0)) < TWO_DAYS_IN_SECONDS
-            }
-            
             response = await request_op(user_id, chat_id, context, task_link="", max_op=10)
             if response and "links" in response:
                 new_tasks = response.get("links", [])
@@ -193,7 +183,6 @@ async def update_available_tasks(context: ContextTypes.DEFAULT_TYPE):
                             "last_checked": int(time.time()),
                             "permanently_completed": False
                         }
-        
         available_tasks = list(all_tasks)
         logger.info(f"Задания обновлены. Всего доступно: {len(available_tasks)}")
         save_users_data()
@@ -244,11 +233,11 @@ async def show_profile(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(text=profile_text, parse_mode="Markdown")
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    """Обрабатывает команду /start."""
-    global special_tasks
     user = update.effective_user
     ref_code = context.args[0] if context.args else None
     users_data[user.id]["chat_id"] = update.effective_chat.id
+
+    # Обработка реферального кода
     if ref_code and ref_code.startswith("ref") and not users_data[user.id]["used_referral"]:
         referrer_id = int(ref_code[3:])
         if referrer_id in users_data and referrer_id != user.id:
@@ -265,14 +254,35 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
                 chat_id=referrer_id,
                 text=f"🎉 Новый реферал! +{REFERRAL_BONUS:.2f}₽ и +{referrer_xp} XP!"
             )
+
     users_data[user.id]["referral_code"] = f"ref{user.id}"
+
+    # Добавление специальных заданий
     for task in special_tasks:
         if task["current_activations"] < task["max_activations"]:
             if not any(t["task_id"] == task["task_id"] for t in users_data[user.id]["special_tasks"]):
                 task_copy = task.copy()
                 task_copy["completed"] = False
                 users_data[user.id]["special_tasks"].append(task_copy)
+
+    # Обновление обычных заданий для нового пользователя
+    chat_id = users_data[user.id]["chat_id"]
+    response = await request_op(user.id, chat_id, context, task_link="", max_op=10)
+    if response and "links" in response:
+        new_tasks = response.get("links", [])
+        for raw_link in new_tasks:
+            if raw_link not in users_data[user.id]["tasks"]:
+                users_data[user.id]["tasks"][raw_link] = {
+                    "completed": False,
+                    "reward": BASE_REWARD,
+                    "status": "warning",
+                    "last_checked": int(time.time()),
+                    "permanently_completed": False
+                }
+
     save_users_data()
+
+    # Отправка приветственного сообщения
     buttons = [
         [KeyboardButton("🎯 Задания"), KeyboardButton("👤 Профиль")],
         [KeyboardButton("👥 Рефералы"), KeyboardButton("💳 Вывод")],
@@ -499,9 +509,6 @@ async def button_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await query.answer()
         
         if query.data == "refresh_tasks":
-            # Проверяем, что update содержит message для корректного вызова handle_tasks
-            if not hasattr(update, 'message') or update.message is None:
-                update.message = query.message  # Передаем сообщение из callback_query
             await handle_tasks(update, context)
             return
         
@@ -568,7 +575,7 @@ async def button_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
                 else:
                     await query.edit_message_text(
                         "❌ Задание не выполнено: вы не подписаны на канал!",
-                        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📝 К заданиям", callback_data="refresh_tasks"),
+                        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🔔 Подписаться", url=special_task["link"]),
                                                             InlineKeyboardButton("Проверить снова", callback_data=f"check_special_{task_id}")]])
                     )
             except telegram.error.BadRequest as e:
@@ -604,7 +611,6 @@ async def button_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
                         task["completed"] = True
                         task["permanently_completed"] = True
                         task["status"] = "ok"
-                        task["last_checked"] = int(time.time())
                         completed_tasks += 1
                 if total_reward > 0:
                     user_data["balance"] = round(user_data["balance"] + total_reward, 2)
@@ -637,41 +643,58 @@ async def button_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await query.answer("⚡ Техническая ошибка", show_alert=True)
     finally:
         save_users_data()
-        
+
+
+
+
 
 async def handle_contact(update: Update, context: ContextTypes.DEFAULT_TYPE):
     """Обрабатывает запросы на связь с администратором."""
     keyboard = [[InlineKeyboardButton("📱 Написать администратору", url="https://t.me/nikon_gd")]]
     await update.message.reply_text("📞 Связь с администратором:\nПо всем вопросам пишите @nikon_gd", reply_markup=InlineKeyboardMarkup(keyboard))
-
 async def check_new_tasks(context: ContextTypes.DEFAULT_TYPE):
-    """Проверяет новые задания и удаляет заблокированных пользователей."""
-    global special_tasks
     async def check_user_tasks(user_id, chat_id, user_data):
         try:
-            incomplete_tasks = {link for link, task in user_data["tasks"].items() if not task.get("permanently_completed", False)}
-            new_tasks = [link for link in available_tasks if link not in user_data["tasks"] or not user_data["tasks"][link].get("permanently_completed", False)]
-            incomplete_special_tasks = {t for t in user_data["special_tasks"] if not t.get("completed", False) and t["current_activations"] < t["max_activations"]}
-            if new_tasks or incomplete_tasks or incomplete_special_tasks:
-                current_time = time.time()
-                last_notification = user_data.get("last_notification", 0)
-                if current_time - last_notification >= 3600:
-                    message_text = f"⚠️ У вас есть {len(incomplete_tasks)} невыполненных API-заданий, {len(incomplete_special_tasks)} специальных заданий.\nНажмите '🎯 Задания', чтобы посмотреть."
-                    try:
+            # Запрашиваем персональные задания через API
+            response = await request_op(user_id, chat_id, context, task_link="", max_op=10)
+            if response and "links" in response:
+                new_tasks = response.get("links", [])
+                # Фильтруем только те задания, которых нет или они не выполнены навсегда
+                actual_new_tasks = [task for task in new_tasks if task not in user_data["tasks"] or not user_data["tasks"][task].get("permanently_completed", False)]
+                
+                # Проверяем специальные задания (если они есть в твоём коде)
+                existing_special_task_ids = {t["task_id"] for t in user_data.get("special_tasks", [])}
+                new_special_tasks = [t for t in special_tasks if t["task_id"] not in existing_special_task_ids and t["current_activations"] < t["max_activations"]]
+                
+                # Если есть новые задания
+                if actual_new_tasks or new_special_tasks:
+                    current_time = time.time()
+                    last_notification = user_data.get("last_notification", 0)
+                    # Уведомляем не чаще, чем раз в час
+                    if current_time - last_notification >= 3600:
+                        message_text = f"✨ У вас есть {len(actual_new_tasks) + len(new_special_tasks)} новых заданий!\nНажмите '🎯 Задания', чтобы посмотреть."
                         await context.bot.send_message(chat_id=chat_id, text=message_text)
                         user_data["last_notification"] = current_time
-                        save_users_data()
-                    except telegram.error.Forbidden:
-                        logger.info(f"Пользователь {user_id} заблокировал бота. Удаляем из базы.")
-                        del users_data[user_id]  # Удаляем пользователя из users_data
-                        save_users_data()
-                    except Exception as e:
-                        logger.error(f"Ошибка отправки уведомления пользователю {user_id}: {str(e)}")
+                        # Добавляем новые специальные задания
+                        for new_task in new_special_tasks:
+                            if not any(t["task_id"] == new_task["task_id"] for t in user_data["special_tasks"]):
+                                task_copy = new_task.copy()
+                                task_copy["completed"] = False
+                                user_data["special_tasks"].append(task_copy)
+                        save_users_data()  # Сохраняем данные
+        except telegram.error.Forbidden:
+            # Если пользователь заблокировал бота
+            del users_data[user_id]
+            save_users_data()
         except Exception as e:
-            logger.error(f"Ошибка при проверке заданий для пользователя {user_id}: {str(e)}")
-    
+            logger.error(f"Ошибка для пользователя {user_id}: {str(e)}")
+
+    # Запускаем проверку для всех пользователей
     tasks = [check_user_tasks(user_id, users_data[user_id].get("chat_id", user_id), users_data[user_id]) for user_id in list(users_data.keys())]
     await asyncio.gather(*tasks)
+    
+    
+    
 
 def main():
     """Запускает бота."""
