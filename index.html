@@ -4,46 +4,182 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Статистика бота</title>
-    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f2f5;
+            color: #333;
+        }
+        .container {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        h1 {
+            text-align: center;
+            color: #1a73e8;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .stats {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+        }
+        .stat {
+            text-align: center;
+            flex: 1;
+            min-width: 100px;
+            padding: 10px;
+        }
+        .stat h2 {
+            margin: 0;
+            font-size: 28px;
+            color: #1a73e8;
+        }
+        .stat p {
+            margin: 5px 0 0;
+            font-size: 16px;
+            color: #666;
+        }
+        .withdrawals {
+            overflow-x: auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+            font-size: 14px;
+        }
+        th {
+            background-color: #1a73e8;
+            color: #fff;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        @media (max-width: 600px) {
+            .stats {
+                flex-direction: column;
+            }
+            .stat {
+                margin-bottom: 15px;
+            }
+            th, td {
+                font-size: 12px;
+                padding: 8px;
+            }
+        }
+    </style>
 </head>
 <body>
     <div class="container">
-        <h1>В разработке</h1>
-        <div class="tabs">
-            <button class="tab-button" onclick="showTab('stats')">Статистика</button>
-            <button class="tab-button" onclick="showTab('leaders')">Лидеры</button>
-        </div>
-        <div id="stats" class="tab-content active">
-            <div class="stats">
-                <div class="stat-item">
-                    <p>Пользователей</p>
-                    <span id="users-count">0</span>
-                </div>
-                <div class="stat-item">
-                    <p>Заданий выполнено</p>
-                    <span id="tasks-completed">0</span>
-                </div>
-                <div class="stat-item">
-                    <p>Заработано</p>
-                    <span id="total-earned">0.00</span>₽
-                </div>
-                <div class="stat-item">
-                    <p>Выведено</p>
-                    <span id="total-withdrawn">0.00</span>₽
-                </div>
+        <h1>Статистика бота</h1>
+        <div class="stats">
+            <div class="stat">
+                <h2 id="total-users">0</h2>
+                <p>Пользователей</p>
             </div>
-            <h2>Последние выводы</h2>
-            <ul id="last-withdrawals">
-                <!-- Здесь будут последние выводы -->
-            </ul>
+            <div class="stat">
+                <h2 id="total-earned">0.00</h2>
+                <p>Заработано (₽)</p>
+            </div>
+            <div class="stat">
+                <h2 id="total-withdrawn">0.00</h2>
+                <p>Выведено (₽)</p>
+            </div>
         </div>
-        <div id="leaders" class="tab-content">
-            <h2>Лидеры по заработку</h2>
-            <ul id="leaders-list">
-                <!-- Здесь будут лидеры -->
-            </ul>
+        <h2>Последние выводы</h2>
+        <div class="withdrawals">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Имя</th>
+                        <th>Сумма (₽)</th>
+                        <th>Дата</th>
+                        <th>Статус</th>
+                    </tr>
+                </thead>
+                <tbody id="withdrawals-table">
+                    <!-- Статические данные для примера -->
+                    <tr>
+                        <td>@user1</td>
+                        <td>10.00</td>
+                        <td>2023-10-01</td>
+                        <td>Completed</td>
+                    </tr>
+                    <tr>
+                        <td>@user2</td>
+                        <td>20.00</td>
+                        <td>2023-10-02</td>
+                        <td>Completed</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
     </div>
-    <script src="script.js"></script>
+    <script>
+        // Функция анимации чисел
+        function animateValue(id, start, end, duration, suffix = '') {
+            let startTimestamp = null;
+            const step = (timestamp) => {
+                if (!startTimestamp) startTimestamp = timestamp;
+                const progress = Math.min((timestamp - startTimestamp) / duration, 1);
+                const value = progress * (end - start) + start;
+                document.getElementById(id).textContent = suffix === '' ? Math.floor(value) : value.toFixed(2);
+                if (progress < 1) {
+                    window.requestAnimationFrame(step);
+                }
+            };
+            window.requestAnimationFrame(step);
+        }
+
+        // Пример данных (замените на динамические данные из бота)
+        const stats = {
+            totalUsers: 150,
+            totalEarned: 5000.00,
+            totalWithdrawn: 3000.00
+        };
+
+        // Запуск анимации при загрузке страницы
+        animateValue('total-users', 0, stats.totalUsers, 2000);
+        animateValue('total-earned', 0, stats.totalEarned, 2000, '₽');
+        animateValue('total-withdrawn', 0, stats.totalWithdrawn, 2000, '₽');
+
+        // Динамическая загрузка данных (закомментировано для примера)
+        /*
+        fetch('/api/bot-stats')
+            .then(response => response.json())
+            .then(data => {
+                animateValue('total-users', 0, data.totalUsers, 2000);
+                animateValue('total-earned', 0, data.totalEarned, 2000, '₽');
+                animateValue('total-withdrawn', 0, data.totalWithdrawn, 2000, '₽');
+                
+                const tableBody = document.getElementById('withdrawals-table');
+                tableBody.innerHTML = '';
+                data.withdrawals.forEach(w => {
+                    const row = document.createElement('tr');
+                    row.innerHTML = `
+                        <td>${w.username}</td>
+                        <td>${w.amount.toFixed(2)}</td>
+                        <td>${w.date}</td>
+                        <td>${w.status}</td>
+                    `;
+                    tableBody.appendChild(row);
+                });
+            });
+        */
+    </script>
 </body>
 </html>
